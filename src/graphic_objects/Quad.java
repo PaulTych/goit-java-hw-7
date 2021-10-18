@@ -1,9 +1,10 @@
-package GraphicObjects;
+package graphic_objects;
 
 public class Quad extends Shape{
     protected final String name = "Quad";
 
-    public String printName() {
+    @Override
+    public String getName() {
         return name;
     }
 }

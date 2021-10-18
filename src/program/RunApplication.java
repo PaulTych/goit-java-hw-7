@@ -1,16 +1,16 @@
-package Program;
+package program;
 
-import GraphicObjects.*;
-import Output.*;
+import graphic_objects.*;
+import output.*;
 
 public class RunApplication {
     public static void main(String[] args) {
         Output output = new Print();
         Shape circle = new Circle();
-        output.print(circle);
+        output.printName(circle);
         Shape quad = new Quad();
-        output.print(quad);
+        output.printName(quad);
         Shape triangle = new Triangle();
-        output.print(triangle);
+        output.printName(triangle);
     }
 }

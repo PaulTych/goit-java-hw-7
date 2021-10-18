@@ -1,9 +1,10 @@
-package GraphicObjects;
+package graphic_objects;
 
 public class Circle extends Shape {
     protected final String name = "Circle";
 
-    public String printName() {
+    @Override
+    public String getName() {
         return name;
     }
 }

@@ -1,9 +1,9 @@
-package GraphicObjects;
+package graphic_objects;
 
 public abstract class Shape {
     protected final String name = "Shape";
 
-    public String printName(){
+    public String getName(){
         return name;
     }
 }

@@ -1,9 +1,10 @@
-package GraphicObjects;
+package graphic_objects;
 
 public class Romb extends Shape{
     protected final String name = "Romb";
 
-    public String printName() {
+    @Override
+    public String getName() {
         return name;
     }
 }

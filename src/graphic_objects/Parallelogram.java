@@ -1,9 +1,10 @@
-package GraphicObjects;
+package graphic_objects;
 
 public class Parallelogram extends Shape{
     protected final String name = "Parallelogram";
 
-    public String printName() {
+    @Override
+    public String getName() {
         return name;
     }
 }

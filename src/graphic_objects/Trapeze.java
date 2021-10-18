@@ -1,9 +1,10 @@
-package GraphicObjects;
+package graphic_objects;
 
 public class Trapeze extends Shape{
     protected final String name = "Trapeze";
 
-    public String printName() {
+    @Override
+    public String getName() {
         return name;
     }
 }
